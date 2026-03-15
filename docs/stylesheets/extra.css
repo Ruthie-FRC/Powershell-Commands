@@ -3,20 +3,54 @@
    ═══════════════════════════════════════════════════════════════════════════
 
    Table of contents
-   1. Design tokens
-   2. Page margins
-   3. Body / prose
-   4. Heading hierarchy
-   5. Horizontal rules
-   6. Images
-   7. Inline code & code blocks
-   8. Tables
-   9. Admonitions & details
-  10. Keyboard shortcuts
-  11. Links
-  12. Navigation
-  13. Grid cards (home page)
+    0. Brand color
+    1. Design tokens
+    2. Page margins
+    3. Body / prose
+    4. Heading hierarchy
+    5. Horizontal rules
+    6. Images
+    7. Inline code & code blocks
+    8. Tables
+    9. Admonitions & details
+   10. Keyboard shortcuts
+   11. Links
+   12. Navigation
+   13. Grid cards (home page)
    ═══════════════════════════════════════════════════════════════════════════ */
+
+
+/* ── 0. Brand Color ──────────────────────────────────────────────────────────
+   #ff931c is the single source of truth for all primary/accent colour usage.
+   Material for MkDocs reads --md-primary-fg-color and family for its own
+   components (header, nav active state, search highlight, etc.).
+   ──────────────────────────────────────────────────────────────────────────── */
+:root,
+[data-md-color-primary="custom"] {
+  --ps-brand:                #ff931c;
+  --ps-brand-dark:           #cc7200;   /* 20 % darker — active/pressed states */
+  --ps-brand-light:          rgba(255, 147, 28, 0.15); /* tint — hover bg, zebra */
+
+  /* Wire into Material's own variable set */
+  --md-primary-fg-color:              var(--ps-brand);
+  --md-primary-fg-color--light:       rgba(255, 147, 28, 0.54);
+  --md-primary-fg-color--dark:        var(--ps-brand-dark);
+  --md-primary-bg-color:              #000000;
+  --md-primary-bg-color--light:       rgba(0, 0, 0, 0.54);
+}
+
+[data-md-color-accent="custom"] {
+  --md-accent-fg-color:              var(--ps-brand);
+  --md-accent-fg-color--transparent: var(--ps-brand-light);
+  --md-accent-bg-color:              #000000;
+  --md-accent-bg-color--light:       rgba(0, 0, 0, 0.54);
+}
+
+/* Dark (slate) scheme — keep the same orange; Material handles bg automatically */
+[data-md-color-scheme="slate"][data-md-color-primary="custom"] {
+  --md-primary-fg-color:     var(--ps-brand);
+  --md-primary-bg-color:     rgba(0, 0, 0, 0.87);
+}
 
 
 /* ── 1. Design Tokens ────────────────────────────────────────────────────────
@@ -78,7 +112,8 @@
   font-weight:    700;
   letter-spacing: -0.025em;
   padding-bottom: 0.4em;
-  border-bottom:  3px solid var(--md-primary-fg-color);
+  color:          var(--ps-brand);
+  border-bottom:  3px solid var(--ps-brand);
   margin-bottom:  1.5rem;
 }
 
@@ -87,13 +122,15 @@
   font-weight:  600;
   margin-top:   2.25rem;
   padding-left: 0.65rem;
-  border-left:  var(--ps-h2-bar) solid var(--md-primary-fg-color);
+  color:        var(--ps-brand);
+  border-left:  var(--ps-h2-bar) solid var(--ps-brand);
 }
 
 .md-typeset h3 {
   font-size:   1.1rem;
   font-weight: 600;
   margin-top:  1.75rem;
+  color:       var(--ps-brand);
 }
 
 .md-typeset h4 {
@@ -102,7 +139,7 @@
   letter-spacing: 0.07em;
   text-transform: uppercase;
   margin-top:     1.25rem;
-  color:          var(--md-default-fg-color--light);
+  color:          var(--ps-brand-dark);
 }
 
 
