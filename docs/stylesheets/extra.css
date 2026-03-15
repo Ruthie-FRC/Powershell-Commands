@@ -1,0 +1,38 @@
+/* ── Image Sizing ──────────────────────────────────────────────────────────
+   Prevent images from rendering at their native (often giant) resolution.
+   Images scale down to fit the content column but never stretch beyond it.
+   ──────────────────────────────────────────────────────────────────────── */
+.md-typeset img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.25rem auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Allow inline icons/emoji to remain inline and unstyled */
+.md-typeset .twemoji img,
+.md-typeset .emojione img {
+  display: inline;
+  margin: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+/* ── Page Margins ──────────────────────────────────────────────────────────
+   Add comfortable horizontal padding to the content column so text and
+   content never run flush against the edge of the viewport.
+   ──────────────────────────────────────────────────────────────────────── */
+.md-content__inner {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 76.25em) {
+  /* On wide screens give the inner content a bit more breathing room */
+  .md-content__inner {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
