@@ -1,15 +1,5 @@
 [
   {
-    "name": "Get-Item",
-    "description": "PowerShell cmdlet Get-Item",
-    "keywords": [
-      "item"
-    ],
-    "examples": [
-      "Get-Item"
-    ]
-  },
-  {
     "name": "Get-Process",
     "description": "PowerShell cmdlet Get-Process",
     "keywords": [
