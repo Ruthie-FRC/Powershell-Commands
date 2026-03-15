@@ -1,0 +1,33 @@
+site_name: PowerShell Command Encyclopedia
+site_description: Searchable documentation for PowerShell commands
+repo_url: https://github.com/YOURNAME/powershell-encyclopedia
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Guides:
+      - Filesystem: guides/filesystem.md
+      - Processes: guides/processes.md
+      - Networking: guides/networking.md
+      - System: guides/system.md
+      - Pipelines: guides/pipelines.md
+  - Command Reference:
+      - command-reference.md

@@ -1,0 +1,3002 @@
+[
+  {
+    "name": "Get-Item",
+    "description": "PowerShell cmdlet Get-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Get-Item"
+    ]
+  },
+  {
+    "name": "Get-Process",
+    "description": "PowerShell cmdlet Get-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Get-Process"
+    ]
+  },
+  {
+    "name": "Get-Service",
+    "description": "PowerShell cmdlet Get-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Get-Service"
+    ]
+  },
+  {
+    "name": "Get-Computer",
+    "description": "PowerShell cmdlet Get-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Get-Computer"
+    ]
+  },
+  {
+    "name": "Get-File",
+    "description": "PowerShell cmdlet Get-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Get-File"
+    ]
+  },
+  {
+    "name": "Get-Directory",
+    "description": "PowerShell cmdlet Get-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Get-Directory"
+    ]
+  },
+  {
+    "name": "Get-Variable",
+    "description": "PowerShell cmdlet Get-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Get-Variable"
+    ]
+  },
+  {
+    "name": "Get-Module",
+    "description": "PowerShell cmdlet Get-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Get-Module"
+    ]
+  },
+  {
+    "name": "Get-Command",
+    "description": "PowerShell cmdlet Get-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Get-Command"
+    ]
+  },
+  {
+    "name": "Get-Job",
+    "description": "PowerShell cmdlet Get-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Get-Job"
+    ]
+  },
+  {
+    "name": "Get-Event",
+    "description": "PowerShell cmdlet Get-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Get-Event"
+    ]
+  },
+  {
+    "name": "Get-Content",
+    "description": "PowerShell cmdlet Get-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Get-Content"
+    ]
+  },
+  {
+    "name": "Get-Package",
+    "description": "PowerShell cmdlet Get-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Get-Package"
+    ]
+  },
+  {
+    "name": "Get-Session",
+    "description": "PowerShell cmdlet Get-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Get-Session"
+    ]
+  },
+  {
+    "name": "Get-History",
+    "description": "PowerShell cmdlet Get-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Get-History"
+    ]
+  },
+  {
+    "name": "Get-Connection",
+    "description": "PowerShell cmdlet Get-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Get-Connection"
+    ]
+  },
+  {
+    "name": "Get-Network",
+    "description": "PowerShell cmdlet Get-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Get-Network"
+    ]
+  },
+  {
+    "name": "Get-Disk",
+    "description": "PowerShell cmdlet Get-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Get-Disk"
+    ]
+  },
+  {
+    "name": "Get-Drive",
+    "description": "PowerShell cmdlet Get-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Get-Drive"
+    ]
+  },
+  {
+    "name": "Get-User",
+    "description": "PowerShell cmdlet Get-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Get-User"
+    ]
+  },
+  {
+    "name": "Get-Group",
+    "description": "PowerShell cmdlet Get-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Get-Group"
+    ]
+  },
+  {
+    "name": "Get-Certificate",
+    "description": "PowerShell cmdlet Get-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Get-Certificate"
+    ]
+  },
+  {
+    "name": "Set-Item",
+    "description": "PowerShell cmdlet Set-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Set-Item"
+    ]
+  },
+  {
+    "name": "Set-Process",
+    "description": "PowerShell cmdlet Set-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Set-Process"
+    ]
+  },
+  {
+    "name": "Set-Service",
+    "description": "PowerShell cmdlet Set-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Set-Service"
+    ]
+  },
+  {
+    "name": "Set-Computer",
+    "description": "PowerShell cmdlet Set-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Set-Computer"
+    ]
+  },
+  {
+    "name": "Set-File",
+    "description": "PowerShell cmdlet Set-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Set-File"
+    ]
+  },
+  {
+    "name": "Set-Directory",
+    "description": "PowerShell cmdlet Set-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Set-Directory"
+    ]
+  },
+  {
+    "name": "Set-Variable",
+    "description": "PowerShell cmdlet Set-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Set-Variable"
+    ]
+  },
+  {
+    "name": "Set-Module",
+    "description": "PowerShell cmdlet Set-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Set-Module"
+    ]
+  },
+  {
+    "name": "Set-Command",
+    "description": "PowerShell cmdlet Set-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Set-Command"
+    ]
+  },
+  {
+    "name": "Set-Job",
+    "description": "PowerShell cmdlet Set-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Set-Job"
+    ]
+  },
+  {
+    "name": "Set-Event",
+    "description": "PowerShell cmdlet Set-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Set-Event"
+    ]
+  },
+  {
+    "name": "Set-Content",
+    "description": "PowerShell cmdlet Set-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Set-Content"
+    ]
+  },
+  {
+    "name": "Set-Package",
+    "description": "PowerShell cmdlet Set-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Set-Package"
+    ]
+  },
+  {
+    "name": "Set-Session",
+    "description": "PowerShell cmdlet Set-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Set-Session"
+    ]
+  },
+  {
+    "name": "Set-History",
+    "description": "PowerShell cmdlet Set-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Set-History"
+    ]
+  },
+  {
+    "name": "Set-Connection",
+    "description": "PowerShell cmdlet Set-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Set-Connection"
+    ]
+  },
+  {
+    "name": "Set-Network",
+    "description": "PowerShell cmdlet Set-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Set-Network"
+    ]
+  },
+  {
+    "name": "Set-Disk",
+    "description": "PowerShell cmdlet Set-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Set-Disk"
+    ]
+  },
+  {
+    "name": "Set-Drive",
+    "description": "PowerShell cmdlet Set-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Set-Drive"
+    ]
+  },
+  {
+    "name": "Set-User",
+    "description": "PowerShell cmdlet Set-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Set-User"
+    ]
+  },
+  {
+    "name": "Set-Group",
+    "description": "PowerShell cmdlet Set-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Set-Group"
+    ]
+  },
+  {
+    "name": "Set-Certificate",
+    "description": "PowerShell cmdlet Set-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Set-Certificate"
+    ]
+  },
+  {
+    "name": "New-Item",
+    "description": "PowerShell cmdlet New-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "New-Item"
+    ]
+  },
+  {
+    "name": "New-Process",
+    "description": "PowerShell cmdlet New-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "New-Process"
+    ]
+  },
+  {
+    "name": "New-Service",
+    "description": "PowerShell cmdlet New-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "New-Service"
+    ]
+  },
+  {
+    "name": "New-Computer",
+    "description": "PowerShell cmdlet New-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "New-Computer"
+    ]
+  },
+  {
+    "name": "New-File",
+    "description": "PowerShell cmdlet New-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "New-File"
+    ]
+  },
+  {
+    "name": "New-Directory",
+    "description": "PowerShell cmdlet New-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "New-Directory"
+    ]
+  },
+  {
+    "name": "New-Variable",
+    "description": "PowerShell cmdlet New-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "New-Variable"
+    ]
+  },
+  {
+    "name": "New-Module",
+    "description": "PowerShell cmdlet New-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "New-Module"
+    ]
+  },
+  {
+    "name": "New-Command",
+    "description": "PowerShell cmdlet New-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "New-Command"
+    ]
+  },
+  {
+    "name": "New-Job",
+    "description": "PowerShell cmdlet New-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "New-Job"
+    ]
+  },
+  {
+    "name": "New-Event",
+    "description": "PowerShell cmdlet New-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "New-Event"
+    ]
+  },
+  {
+    "name": "New-Content",
+    "description": "PowerShell cmdlet New-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "New-Content"
+    ]
+  },
+  {
+    "name": "New-Package",
+    "description": "PowerShell cmdlet New-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "New-Package"
+    ]
+  },
+  {
+    "name": "New-Session",
+    "description": "PowerShell cmdlet New-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "New-Session"
+    ]
+  },
+  {
+    "name": "New-History",
+    "description": "PowerShell cmdlet New-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "New-History"
+    ]
+  },
+  {
+    "name": "New-Connection",
+    "description": "PowerShell cmdlet New-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "New-Connection"
+    ]
+  },
+  {
+    "name": "New-Network",
+    "description": "PowerShell cmdlet New-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "New-Network"
+    ]
+  },
+  {
+    "name": "New-Disk",
+    "description": "PowerShell cmdlet New-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "New-Disk"
+    ]
+  },
+  {
+    "name": "New-Drive",
+    "description": "PowerShell cmdlet New-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "New-Drive"
+    ]
+  },
+  {
+    "name": "New-User",
+    "description": "PowerShell cmdlet New-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "New-User"
+    ]
+  },
+  {
+    "name": "New-Group",
+    "description": "PowerShell cmdlet New-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "New-Group"
+    ]
+  },
+  {
+    "name": "New-Certificate",
+    "description": "PowerShell cmdlet New-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "New-Certificate"
+    ]
+  },
+  {
+    "name": "Remove-Item",
+    "description": "PowerShell cmdlet Remove-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Remove-Item"
+    ]
+  },
+  {
+    "name": "Remove-Process",
+    "description": "PowerShell cmdlet Remove-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Remove-Process"
+    ]
+  },
+  {
+    "name": "Remove-Service",
+    "description": "PowerShell cmdlet Remove-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Remove-Service"
+    ]
+  },
+  {
+    "name": "Remove-Computer",
+    "description": "PowerShell cmdlet Remove-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Remove-Computer"
+    ]
+  },
+  {
+    "name": "Remove-File",
+    "description": "PowerShell cmdlet Remove-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Remove-File"
+    ]
+  },
+  {
+    "name": "Remove-Directory",
+    "description": "PowerShell cmdlet Remove-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Remove-Directory"
+    ]
+  },
+  {
+    "name": "Remove-Variable",
+    "description": "PowerShell cmdlet Remove-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Remove-Variable"
+    ]
+  },
+  {
+    "name": "Remove-Module",
+    "description": "PowerShell cmdlet Remove-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Remove-Module"
+    ]
+  },
+  {
+    "name": "Remove-Command",
+    "description": "PowerShell cmdlet Remove-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Remove-Command"
+    ]
+  },
+  {
+    "name": "Remove-Job",
+    "description": "PowerShell cmdlet Remove-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Remove-Job"
+    ]
+  },
+  {
+    "name": "Remove-Event",
+    "description": "PowerShell cmdlet Remove-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Remove-Event"
+    ]
+  },
+  {
+    "name": "Remove-Content",
+    "description": "PowerShell cmdlet Remove-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Remove-Content"
+    ]
+  },
+  {
+    "name": "Remove-Package",
+    "description": "PowerShell cmdlet Remove-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Remove-Package"
+    ]
+  },
+  {
+    "name": "Remove-Session",
+    "description": "PowerShell cmdlet Remove-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Remove-Session"
+    ]
+  },
+  {
+    "name": "Remove-History",
+    "description": "PowerShell cmdlet Remove-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Remove-History"
+    ]
+  },
+  {
+    "name": "Remove-Connection",
+    "description": "PowerShell cmdlet Remove-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Remove-Connection"
+    ]
+  },
+  {
+    "name": "Remove-Network",
+    "description": "PowerShell cmdlet Remove-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Remove-Network"
+    ]
+  },
+  {
+    "name": "Remove-Disk",
+    "description": "PowerShell cmdlet Remove-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Remove-Disk"
+    ]
+  },
+  {
+    "name": "Remove-Drive",
+    "description": "PowerShell cmdlet Remove-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Remove-Drive"
+    ]
+  },
+  {
+    "name": "Remove-User",
+    "description": "PowerShell cmdlet Remove-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Remove-User"
+    ]
+  },
+  {
+    "name": "Remove-Group",
+    "description": "PowerShell cmdlet Remove-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Remove-Group"
+    ]
+  },
+  {
+    "name": "Remove-Certificate",
+    "description": "PowerShell cmdlet Remove-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Remove-Certificate"
+    ]
+  },
+  {
+    "name": "Start-Item",
+    "description": "PowerShell cmdlet Start-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Start-Item"
+    ]
+  },
+  {
+    "name": "Start-Process",
+    "description": "PowerShell cmdlet Start-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Start-Process"
+    ]
+  },
+  {
+    "name": "Start-Service",
+    "description": "PowerShell cmdlet Start-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Start-Service"
+    ]
+  },
+  {
+    "name": "Start-Computer",
+    "description": "PowerShell cmdlet Start-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Start-Computer"
+    ]
+  },
+  {
+    "name": "Start-File",
+    "description": "PowerShell cmdlet Start-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Start-File"
+    ]
+  },
+  {
+    "name": "Start-Directory",
+    "description": "PowerShell cmdlet Start-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Start-Directory"
+    ]
+  },
+  {
+    "name": "Start-Variable",
+    "description": "PowerShell cmdlet Start-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Start-Variable"
+    ]
+  },
+  {
+    "name": "Start-Module",
+    "description": "PowerShell cmdlet Start-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Start-Module"
+    ]
+  },
+  {
+    "name": "Start-Command",
+    "description": "PowerShell cmdlet Start-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Start-Command"
+    ]
+  },
+  {
+    "name": "Start-Job",
+    "description": "PowerShell cmdlet Start-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Start-Job"
+    ]
+  },
+  {
+    "name": "Start-Event",
+    "description": "PowerShell cmdlet Start-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Start-Event"
+    ]
+  },
+  {
+    "name": "Start-Content",
+    "description": "PowerShell cmdlet Start-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Start-Content"
+    ]
+  },
+  {
+    "name": "Start-Package",
+    "description": "PowerShell cmdlet Start-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Start-Package"
+    ]
+  },
+  {
+    "name": "Start-Session",
+    "description": "PowerShell cmdlet Start-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Start-Session"
+    ]
+  },
+  {
+    "name": "Start-History",
+    "description": "PowerShell cmdlet Start-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Start-History"
+    ]
+  },
+  {
+    "name": "Start-Connection",
+    "description": "PowerShell cmdlet Start-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Start-Connection"
+    ]
+  },
+  {
+    "name": "Start-Network",
+    "description": "PowerShell cmdlet Start-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Start-Network"
+    ]
+  },
+  {
+    "name": "Start-Disk",
+    "description": "PowerShell cmdlet Start-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Start-Disk"
+    ]
+  },
+  {
+    "name": "Start-Drive",
+    "description": "PowerShell cmdlet Start-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Start-Drive"
+    ]
+  },
+  {
+    "name": "Start-User",
+    "description": "PowerShell cmdlet Start-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Start-User"
+    ]
+  },
+  {
+    "name": "Start-Group",
+    "description": "PowerShell cmdlet Start-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Start-Group"
+    ]
+  },
+  {
+    "name": "Start-Certificate",
+    "description": "PowerShell cmdlet Start-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Start-Certificate"
+    ]
+  },
+  {
+    "name": "Stop-Item",
+    "description": "PowerShell cmdlet Stop-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Stop-Item"
+    ]
+  },
+  {
+    "name": "Stop-Process",
+    "description": "PowerShell cmdlet Stop-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Stop-Process"
+    ]
+  },
+  {
+    "name": "Stop-Service",
+    "description": "PowerShell cmdlet Stop-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Stop-Service"
+    ]
+  },
+  {
+    "name": "Stop-Computer",
+    "description": "PowerShell cmdlet Stop-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Stop-Computer"
+    ]
+  },
+  {
+    "name": "Stop-File",
+    "description": "PowerShell cmdlet Stop-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Stop-File"
+    ]
+  },
+  {
+    "name": "Stop-Directory",
+    "description": "PowerShell cmdlet Stop-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Stop-Directory"
+    ]
+  },
+  {
+    "name": "Stop-Variable",
+    "description": "PowerShell cmdlet Stop-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Stop-Variable"
+    ]
+  },
+  {
+    "name": "Stop-Module",
+    "description": "PowerShell cmdlet Stop-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Stop-Module"
+    ]
+  },
+  {
+    "name": "Stop-Command",
+    "description": "PowerShell cmdlet Stop-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Stop-Command"
+    ]
+  },
+  {
+    "name": "Stop-Job",
+    "description": "PowerShell cmdlet Stop-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Stop-Job"
+    ]
+  },
+  {
+    "name": "Stop-Event",
+    "description": "PowerShell cmdlet Stop-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Stop-Event"
+    ]
+  },
+  {
+    "name": "Stop-Content",
+    "description": "PowerShell cmdlet Stop-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Stop-Content"
+    ]
+  },
+  {
+    "name": "Stop-Package",
+    "description": "PowerShell cmdlet Stop-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Stop-Package"
+    ]
+  },
+  {
+    "name": "Stop-Session",
+    "description": "PowerShell cmdlet Stop-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Stop-Session"
+    ]
+  },
+  {
+    "name": "Stop-History",
+    "description": "PowerShell cmdlet Stop-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Stop-History"
+    ]
+  },
+  {
+    "name": "Stop-Connection",
+    "description": "PowerShell cmdlet Stop-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Stop-Connection"
+    ]
+  },
+  {
+    "name": "Stop-Network",
+    "description": "PowerShell cmdlet Stop-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Stop-Network"
+    ]
+  },
+  {
+    "name": "Stop-Disk",
+    "description": "PowerShell cmdlet Stop-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Stop-Disk"
+    ]
+  },
+  {
+    "name": "Stop-Drive",
+    "description": "PowerShell cmdlet Stop-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Stop-Drive"
+    ]
+  },
+  {
+    "name": "Stop-User",
+    "description": "PowerShell cmdlet Stop-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Stop-User"
+    ]
+  },
+  {
+    "name": "Stop-Group",
+    "description": "PowerShell cmdlet Stop-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Stop-Group"
+    ]
+  },
+  {
+    "name": "Stop-Certificate",
+    "description": "PowerShell cmdlet Stop-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Stop-Certificate"
+    ]
+  },
+  {
+    "name": "Restart-Item",
+    "description": "PowerShell cmdlet Restart-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Restart-Item"
+    ]
+  },
+  {
+    "name": "Restart-Process",
+    "description": "PowerShell cmdlet Restart-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Restart-Process"
+    ]
+  },
+  {
+    "name": "Restart-Service",
+    "description": "PowerShell cmdlet Restart-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Restart-Service"
+    ]
+  },
+  {
+    "name": "Restart-Computer",
+    "description": "PowerShell cmdlet Restart-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Restart-Computer"
+    ]
+  },
+  {
+    "name": "Restart-File",
+    "description": "PowerShell cmdlet Restart-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Restart-File"
+    ]
+  },
+  {
+    "name": "Restart-Directory",
+    "description": "PowerShell cmdlet Restart-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Restart-Directory"
+    ]
+  },
+  {
+    "name": "Restart-Variable",
+    "description": "PowerShell cmdlet Restart-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Restart-Variable"
+    ]
+  },
+  {
+    "name": "Restart-Module",
+    "description": "PowerShell cmdlet Restart-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Restart-Module"
+    ]
+  },
+  {
+    "name": "Restart-Command",
+    "description": "PowerShell cmdlet Restart-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Restart-Command"
+    ]
+  },
+  {
+    "name": "Restart-Job",
+    "description": "PowerShell cmdlet Restart-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Restart-Job"
+    ]
+  },
+  {
+    "name": "Restart-Event",
+    "description": "PowerShell cmdlet Restart-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Restart-Event"
+    ]
+  },
+  {
+    "name": "Restart-Content",
+    "description": "PowerShell cmdlet Restart-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Restart-Content"
+    ]
+  },
+  {
+    "name": "Restart-Package",
+    "description": "PowerShell cmdlet Restart-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Restart-Package"
+    ]
+  },
+  {
+    "name": "Restart-Session",
+    "description": "PowerShell cmdlet Restart-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Restart-Session"
+    ]
+  },
+  {
+    "name": "Restart-History",
+    "description": "PowerShell cmdlet Restart-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Restart-History"
+    ]
+  },
+  {
+    "name": "Restart-Connection",
+    "description": "PowerShell cmdlet Restart-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Restart-Connection"
+    ]
+  },
+  {
+    "name": "Restart-Network",
+    "description": "PowerShell cmdlet Restart-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Restart-Network"
+    ]
+  },
+  {
+    "name": "Restart-Disk",
+    "description": "PowerShell cmdlet Restart-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Restart-Disk"
+    ]
+  },
+  {
+    "name": "Restart-Drive",
+    "description": "PowerShell cmdlet Restart-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Restart-Drive"
+    ]
+  },
+  {
+    "name": "Restart-User",
+    "description": "PowerShell cmdlet Restart-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Restart-User"
+    ]
+  },
+  {
+    "name": "Restart-Group",
+    "description": "PowerShell cmdlet Restart-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Restart-Group"
+    ]
+  },
+  {
+    "name": "Restart-Certificate",
+    "description": "PowerShell cmdlet Restart-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Restart-Certificate"
+    ]
+  },
+  {
+    "name": "Enable-Item",
+    "description": "PowerShell cmdlet Enable-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Enable-Item"
+    ]
+  },
+  {
+    "name": "Enable-Process",
+    "description": "PowerShell cmdlet Enable-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Enable-Process"
+    ]
+  },
+  {
+    "name": "Enable-Service",
+    "description": "PowerShell cmdlet Enable-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Enable-Service"
+    ]
+  },
+  {
+    "name": "Enable-Computer",
+    "description": "PowerShell cmdlet Enable-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Enable-Computer"
+    ]
+  },
+  {
+    "name": "Enable-File",
+    "description": "PowerShell cmdlet Enable-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Enable-File"
+    ]
+  },
+  {
+    "name": "Enable-Directory",
+    "description": "PowerShell cmdlet Enable-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Enable-Directory"
+    ]
+  },
+  {
+    "name": "Enable-Variable",
+    "description": "PowerShell cmdlet Enable-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Enable-Variable"
+    ]
+  },
+  {
+    "name": "Enable-Module",
+    "description": "PowerShell cmdlet Enable-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Enable-Module"
+    ]
+  },
+  {
+    "name": "Enable-Command",
+    "description": "PowerShell cmdlet Enable-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Enable-Command"
+    ]
+  },
+  {
+    "name": "Enable-Job",
+    "description": "PowerShell cmdlet Enable-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Enable-Job"
+    ]
+  },
+  {
+    "name": "Enable-Event",
+    "description": "PowerShell cmdlet Enable-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Enable-Event"
+    ]
+  },
+  {
+    "name": "Enable-Content",
+    "description": "PowerShell cmdlet Enable-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Enable-Content"
+    ]
+  },
+  {
+    "name": "Enable-Package",
+    "description": "PowerShell cmdlet Enable-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Enable-Package"
+    ]
+  },
+  {
+    "name": "Enable-Session",
+    "description": "PowerShell cmdlet Enable-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Enable-Session"
+    ]
+  },
+  {
+    "name": "Enable-History",
+    "description": "PowerShell cmdlet Enable-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Enable-History"
+    ]
+  },
+  {
+    "name": "Enable-Connection",
+    "description": "PowerShell cmdlet Enable-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Enable-Connection"
+    ]
+  },
+  {
+    "name": "Enable-Network",
+    "description": "PowerShell cmdlet Enable-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Enable-Network"
+    ]
+  },
+  {
+    "name": "Enable-Disk",
+    "description": "PowerShell cmdlet Enable-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Enable-Disk"
+    ]
+  },
+  {
+    "name": "Enable-Drive",
+    "description": "PowerShell cmdlet Enable-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Enable-Drive"
+    ]
+  },
+  {
+    "name": "Enable-User",
+    "description": "PowerShell cmdlet Enable-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Enable-User"
+    ]
+  },
+  {
+    "name": "Enable-Group",
+    "description": "PowerShell cmdlet Enable-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Enable-Group"
+    ]
+  },
+  {
+    "name": "Enable-Certificate",
+    "description": "PowerShell cmdlet Enable-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Enable-Certificate"
+    ]
+  },
+  {
+    "name": "Disable-Item",
+    "description": "PowerShell cmdlet Disable-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Disable-Item"
+    ]
+  },
+  {
+    "name": "Disable-Process",
+    "description": "PowerShell cmdlet Disable-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Disable-Process"
+    ]
+  },
+  {
+    "name": "Disable-Service",
+    "description": "PowerShell cmdlet Disable-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Disable-Service"
+    ]
+  },
+  {
+    "name": "Disable-Computer",
+    "description": "PowerShell cmdlet Disable-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Disable-Computer"
+    ]
+  },
+  {
+    "name": "Disable-File",
+    "description": "PowerShell cmdlet Disable-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Disable-File"
+    ]
+  },
+  {
+    "name": "Disable-Directory",
+    "description": "PowerShell cmdlet Disable-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Disable-Directory"
+    ]
+  },
+  {
+    "name": "Disable-Variable",
+    "description": "PowerShell cmdlet Disable-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Disable-Variable"
+    ]
+  },
+  {
+    "name": "Disable-Module",
+    "description": "PowerShell cmdlet Disable-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Disable-Module"
+    ]
+  },
+  {
+    "name": "Disable-Command",
+    "description": "PowerShell cmdlet Disable-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Disable-Command"
+    ]
+  },
+  {
+    "name": "Disable-Job",
+    "description": "PowerShell cmdlet Disable-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Disable-Job"
+    ]
+  },
+  {
+    "name": "Disable-Event",
+    "description": "PowerShell cmdlet Disable-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Disable-Event"
+    ]
+  },
+  {
+    "name": "Disable-Content",
+    "description": "PowerShell cmdlet Disable-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Disable-Content"
+    ]
+  },
+  {
+    "name": "Disable-Package",
+    "description": "PowerShell cmdlet Disable-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Disable-Package"
+    ]
+  },
+  {
+    "name": "Disable-Session",
+    "description": "PowerShell cmdlet Disable-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Disable-Session"
+    ]
+  },
+  {
+    "name": "Disable-History",
+    "description": "PowerShell cmdlet Disable-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Disable-History"
+    ]
+  },
+  {
+    "name": "Disable-Connection",
+    "description": "PowerShell cmdlet Disable-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Disable-Connection"
+    ]
+  },
+  {
+    "name": "Disable-Network",
+    "description": "PowerShell cmdlet Disable-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Disable-Network"
+    ]
+  },
+  {
+    "name": "Disable-Disk",
+    "description": "PowerShell cmdlet Disable-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Disable-Disk"
+    ]
+  },
+  {
+    "name": "Disable-Drive",
+    "description": "PowerShell cmdlet Disable-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Disable-Drive"
+    ]
+  },
+  {
+    "name": "Disable-User",
+    "description": "PowerShell cmdlet Disable-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Disable-User"
+    ]
+  },
+  {
+    "name": "Disable-Group",
+    "description": "PowerShell cmdlet Disable-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Disable-Group"
+    ]
+  },
+  {
+    "name": "Disable-Certificate",
+    "description": "PowerShell cmdlet Disable-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Disable-Certificate"
+    ]
+  },
+  {
+    "name": "Invoke-Item",
+    "description": "PowerShell cmdlet Invoke-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Invoke-Item"
+    ]
+  },
+  {
+    "name": "Invoke-Process",
+    "description": "PowerShell cmdlet Invoke-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Invoke-Process"
+    ]
+  },
+  {
+    "name": "Invoke-Service",
+    "description": "PowerShell cmdlet Invoke-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Invoke-Service"
+    ]
+  },
+  {
+    "name": "Invoke-Computer",
+    "description": "PowerShell cmdlet Invoke-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Invoke-Computer"
+    ]
+  },
+  {
+    "name": "Invoke-File",
+    "description": "PowerShell cmdlet Invoke-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Invoke-File"
+    ]
+  },
+  {
+    "name": "Invoke-Directory",
+    "description": "PowerShell cmdlet Invoke-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Invoke-Directory"
+    ]
+  },
+  {
+    "name": "Invoke-Variable",
+    "description": "PowerShell cmdlet Invoke-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Invoke-Variable"
+    ]
+  },
+  {
+    "name": "Invoke-Module",
+    "description": "PowerShell cmdlet Invoke-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Invoke-Module"
+    ]
+  },
+  {
+    "name": "Invoke-Command",
+    "description": "PowerShell cmdlet Invoke-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Invoke-Command"
+    ]
+  },
+  {
+    "name": "Invoke-Job",
+    "description": "PowerShell cmdlet Invoke-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Invoke-Job"
+    ]
+  },
+  {
+    "name": "Invoke-Event",
+    "description": "PowerShell cmdlet Invoke-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Invoke-Event"
+    ]
+  },
+  {
+    "name": "Invoke-Content",
+    "description": "PowerShell cmdlet Invoke-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Invoke-Content"
+    ]
+  },
+  {
+    "name": "Invoke-Package",
+    "description": "PowerShell cmdlet Invoke-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Invoke-Package"
+    ]
+  },
+  {
+    "name": "Invoke-Session",
+    "description": "PowerShell cmdlet Invoke-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Invoke-Session"
+    ]
+  },
+  {
+    "name": "Invoke-History",
+    "description": "PowerShell cmdlet Invoke-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Invoke-History"
+    ]
+  },
+  {
+    "name": "Invoke-Connection",
+    "description": "PowerShell cmdlet Invoke-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Invoke-Connection"
+    ]
+  },
+  {
+    "name": "Invoke-Network",
+    "description": "PowerShell cmdlet Invoke-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Invoke-Network"
+    ]
+  },
+  {
+    "name": "Invoke-Disk",
+    "description": "PowerShell cmdlet Invoke-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Invoke-Disk"
+    ]
+  },
+  {
+    "name": "Invoke-Drive",
+    "description": "PowerShell cmdlet Invoke-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Invoke-Drive"
+    ]
+  },
+  {
+    "name": "Invoke-User",
+    "description": "PowerShell cmdlet Invoke-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Invoke-User"
+    ]
+  },
+  {
+    "name": "Invoke-Group",
+    "description": "PowerShell cmdlet Invoke-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Invoke-Group"
+    ]
+  },
+  {
+    "name": "Invoke-Certificate",
+    "description": "PowerShell cmdlet Invoke-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Invoke-Certificate"
+    ]
+  },
+  {
+    "name": "Test-Item",
+    "description": "PowerShell cmdlet Test-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Test-Item"
+    ]
+  },
+  {
+    "name": "Test-Process",
+    "description": "PowerShell cmdlet Test-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Test-Process"
+    ]
+  },
+  {
+    "name": "Test-Service",
+    "description": "PowerShell cmdlet Test-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Test-Service"
+    ]
+  },
+  {
+    "name": "Test-Computer",
+    "description": "PowerShell cmdlet Test-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Test-Computer"
+    ]
+  },
+  {
+    "name": "Test-File",
+    "description": "PowerShell cmdlet Test-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Test-File"
+    ]
+  },
+  {
+    "name": "Test-Directory",
+    "description": "PowerShell cmdlet Test-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Test-Directory"
+    ]
+  },
+  {
+    "name": "Test-Variable",
+    "description": "PowerShell cmdlet Test-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Test-Variable"
+    ]
+  },
+  {
+    "name": "Test-Module",
+    "description": "PowerShell cmdlet Test-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Test-Module"
+    ]
+  },
+  {
+    "name": "Test-Command",
+    "description": "PowerShell cmdlet Test-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Test-Command"
+    ]
+  },
+  {
+    "name": "Test-Job",
+    "description": "PowerShell cmdlet Test-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Test-Job"
+    ]
+  },
+  {
+    "name": "Test-Event",
+    "description": "PowerShell cmdlet Test-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Test-Event"
+    ]
+  },
+  {
+    "name": "Test-Content",
+    "description": "PowerShell cmdlet Test-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Test-Content"
+    ]
+  },
+  {
+    "name": "Test-Package",
+    "description": "PowerShell cmdlet Test-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Test-Package"
+    ]
+  },
+  {
+    "name": "Test-Session",
+    "description": "PowerShell cmdlet Test-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Test-Session"
+    ]
+  },
+  {
+    "name": "Test-History",
+    "description": "PowerShell cmdlet Test-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Test-History"
+    ]
+  },
+  {
+    "name": "Test-Connection",
+    "description": "PowerShell cmdlet Test-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Test-Connection"
+    ]
+  },
+  {
+    "name": "Test-Network",
+    "description": "PowerShell cmdlet Test-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Test-Network"
+    ]
+  },
+  {
+    "name": "Test-Disk",
+    "description": "PowerShell cmdlet Test-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Test-Disk"
+    ]
+  },
+  {
+    "name": "Test-Drive",
+    "description": "PowerShell cmdlet Test-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Test-Drive"
+    ]
+  },
+  {
+    "name": "Test-User",
+    "description": "PowerShell cmdlet Test-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Test-User"
+    ]
+  },
+  {
+    "name": "Test-Group",
+    "description": "PowerShell cmdlet Test-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Test-Group"
+    ]
+  },
+  {
+    "name": "Test-Certificate",
+    "description": "PowerShell cmdlet Test-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Test-Certificate"
+    ]
+  },
+  {
+    "name": "Export-Item",
+    "description": "PowerShell cmdlet Export-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Export-Item"
+    ]
+  },
+  {
+    "name": "Export-Process",
+    "description": "PowerShell cmdlet Export-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Export-Process"
+    ]
+  },
+  {
+    "name": "Export-Service",
+    "description": "PowerShell cmdlet Export-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Export-Service"
+    ]
+  },
+  {
+    "name": "Export-Computer",
+    "description": "PowerShell cmdlet Export-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Export-Computer"
+    ]
+  },
+  {
+    "name": "Export-File",
+    "description": "PowerShell cmdlet Export-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Export-File"
+    ]
+  },
+  {
+    "name": "Export-Directory",
+    "description": "PowerShell cmdlet Export-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Export-Directory"
+    ]
+  },
+  {
+    "name": "Export-Variable",
+    "description": "PowerShell cmdlet Export-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Export-Variable"
+    ]
+  },
+  {
+    "name": "Export-Module",
+    "description": "PowerShell cmdlet Export-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Export-Module"
+    ]
+  },
+  {
+    "name": "Export-Command",
+    "description": "PowerShell cmdlet Export-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Export-Command"
+    ]
+  },
+  {
+    "name": "Export-Job",
+    "description": "PowerShell cmdlet Export-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Export-Job"
+    ]
+  },
+  {
+    "name": "Export-Event",
+    "description": "PowerShell cmdlet Export-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Export-Event"
+    ]
+  },
+  {
+    "name": "Export-Content",
+    "description": "PowerShell cmdlet Export-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Export-Content"
+    ]
+  },
+  {
+    "name": "Export-Package",
+    "description": "PowerShell cmdlet Export-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Export-Package"
+    ]
+  },
+  {
+    "name": "Export-Session",
+    "description": "PowerShell cmdlet Export-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Export-Session"
+    ]
+  },
+  {
+    "name": "Export-History",
+    "description": "PowerShell cmdlet Export-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Export-History"
+    ]
+  },
+  {
+    "name": "Export-Connection",
+    "description": "PowerShell cmdlet Export-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Export-Connection"
+    ]
+  },
+  {
+    "name": "Export-Network",
+    "description": "PowerShell cmdlet Export-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Export-Network"
+    ]
+  },
+  {
+    "name": "Export-Disk",
+    "description": "PowerShell cmdlet Export-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Export-Disk"
+    ]
+  },
+  {
+    "name": "Export-Drive",
+    "description": "PowerShell cmdlet Export-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Export-Drive"
+    ]
+  },
+  {
+    "name": "Export-User",
+    "description": "PowerShell cmdlet Export-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Export-User"
+    ]
+  },
+  {
+    "name": "Export-Group",
+    "description": "PowerShell cmdlet Export-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Export-Group"
+    ]
+  },
+  {
+    "name": "Export-Certificate",
+    "description": "PowerShell cmdlet Export-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Export-Certificate"
+    ]
+  },
+  {
+    "name": "Import-Item",
+    "description": "PowerShell cmdlet Import-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Import-Item"
+    ]
+  },
+  {
+    "name": "Import-Process",
+    "description": "PowerShell cmdlet Import-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Import-Process"
+    ]
+  },
+  {
+    "name": "Import-Service",
+    "description": "PowerShell cmdlet Import-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Import-Service"
+    ]
+  },
+  {
+    "name": "Import-Computer",
+    "description": "PowerShell cmdlet Import-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Import-Computer"
+    ]
+  },
+  {
+    "name": "Import-File",
+    "description": "PowerShell cmdlet Import-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Import-File"
+    ]
+  },
+  {
+    "name": "Import-Directory",
+    "description": "PowerShell cmdlet Import-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Import-Directory"
+    ]
+  },
+  {
+    "name": "Import-Variable",
+    "description": "PowerShell cmdlet Import-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Import-Variable"
+    ]
+  },
+  {
+    "name": "Import-Module",
+    "description": "PowerShell cmdlet Import-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Import-Module"
+    ]
+  },
+  {
+    "name": "Import-Command",
+    "description": "PowerShell cmdlet Import-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Import-Command"
+    ]
+  },
+  {
+    "name": "Import-Job",
+    "description": "PowerShell cmdlet Import-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Import-Job"
+    ]
+  },
+  {
+    "name": "Import-Event",
+    "description": "PowerShell cmdlet Import-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Import-Event"
+    ]
+  },
+  {
+    "name": "Import-Content",
+    "description": "PowerShell cmdlet Import-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Import-Content"
+    ]
+  },
+  {
+    "name": "Import-Package",
+    "description": "PowerShell cmdlet Import-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Import-Package"
+    ]
+  },
+  {
+    "name": "Import-Session",
+    "description": "PowerShell cmdlet Import-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Import-Session"
+    ]
+  },
+  {
+    "name": "Import-History",
+    "description": "PowerShell cmdlet Import-History",
+    "keywords": [
+      "history"
+    ],
+    "examples": [
+      "Import-History"
+    ]
+  },
+  {
+    "name": "Import-Connection",
+    "description": "PowerShell cmdlet Import-Connection",
+    "keywords": [
+      "connection"
+    ],
+    "examples": [
+      "Import-Connection"
+    ]
+  },
+  {
+    "name": "Import-Network",
+    "description": "PowerShell cmdlet Import-Network",
+    "keywords": [
+      "network"
+    ],
+    "examples": [
+      "Import-Network"
+    ]
+  },
+  {
+    "name": "Import-Disk",
+    "description": "PowerShell cmdlet Import-Disk",
+    "keywords": [
+      "disk"
+    ],
+    "examples": [
+      "Import-Disk"
+    ]
+  },
+  {
+    "name": "Import-Drive",
+    "description": "PowerShell cmdlet Import-Drive",
+    "keywords": [
+      "drive"
+    ],
+    "examples": [
+      "Import-Drive"
+    ]
+  },
+  {
+    "name": "Import-User",
+    "description": "PowerShell cmdlet Import-User",
+    "keywords": [
+      "user"
+    ],
+    "examples": [
+      "Import-User"
+    ]
+  },
+  {
+    "name": "Import-Group",
+    "description": "PowerShell cmdlet Import-Group",
+    "keywords": [
+      "group"
+    ],
+    "examples": [
+      "Import-Group"
+    ]
+  },
+  {
+    "name": "Import-Certificate",
+    "description": "PowerShell cmdlet Import-Certificate",
+    "keywords": [
+      "certificate"
+    ],
+    "examples": [
+      "Import-Certificate"
+    ]
+  },
+  {
+    "name": "Register-Item",
+    "description": "PowerShell cmdlet Register-Item",
+    "keywords": [
+      "item"
+    ],
+    "examples": [
+      "Register-Item"
+    ]
+  },
+  {
+    "name": "Register-Process",
+    "description": "PowerShell cmdlet Register-Process",
+    "keywords": [
+      "process"
+    ],
+    "examples": [
+      "Register-Process"
+    ]
+  },
+  {
+    "name": "Register-Service",
+    "description": "PowerShell cmdlet Register-Service",
+    "keywords": [
+      "service"
+    ],
+    "examples": [
+      "Register-Service"
+    ]
+  },
+  {
+    "name": "Register-Computer",
+    "description": "PowerShell cmdlet Register-Computer",
+    "keywords": [
+      "computer"
+    ],
+    "examples": [
+      "Register-Computer"
+    ]
+  },
+  {
+    "name": "Register-File",
+    "description": "PowerShell cmdlet Register-File",
+    "keywords": [
+      "file"
+    ],
+    "examples": [
+      "Register-File"
+    ]
+  },
+  {
+    "name": "Register-Directory",
+    "description": "PowerShell cmdlet Register-Directory",
+    "keywords": [
+      "directory"
+    ],
+    "examples": [
+      "Register-Directory"
+    ]
+  },
+  {
+    "name": "Register-Variable",
+    "description": "PowerShell cmdlet Register-Variable",
+    "keywords": [
+      "variable"
+    ],
+    "examples": [
+      "Register-Variable"
+    ]
+  },
+  {
+    "name": "Register-Module",
+    "description": "PowerShell cmdlet Register-Module",
+    "keywords": [
+      "module"
+    ],
+    "examples": [
+      "Register-Module"
+    ]
+  },
+  {
+    "name": "Register-Command",
+    "description": "PowerShell cmdlet Register-Command",
+    "keywords": [
+      "command"
+    ],
+    "examples": [
+      "Register-Command"
+    ]
+  },
+  {
+    "name": "Register-Job",
+    "description": "PowerShell cmdlet Register-Job",
+    "keywords": [
+      "job"
+    ],
+    "examples": [
+      "Register-Job"
+    ]
+  },
+  {
+    "name": "Register-Event",
+    "description": "PowerShell cmdlet Register-Event",
+    "keywords": [
+      "event"
+    ],
+    "examples": [
+      "Register-Event"
+    ]
+  },
+  {
+    "name": "Register-Content",
+    "description": "PowerShell cmdlet Register-Content",
+    "keywords": [
+      "content"
+    ],
+    "examples": [
+      "Register-Content"
+    ]
+  },
+  {
+    "name": "Register-Package",
+    "description": "PowerShell cmdlet Register-Package",
+    "keywords": [
+      "package"
+    ],
+    "examples": [
+      "Register-Package"
+    ]
+  },
+  {
+    "name": "Register-Session",
+    "description": "PowerShell cmdlet Register-Session",
+    "keywords": [
+      "session"
+    ],
+    "examples": [
+      "Register-Session"
+    ]
+  }
+]
