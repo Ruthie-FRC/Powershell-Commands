@@ -43,6 +43,7 @@ theme:
     - content.action.edit
     - content.action.view
     - toc.follow
+    - announce.dismiss
 
 extra_css:
   - stylesheets/extra.css
