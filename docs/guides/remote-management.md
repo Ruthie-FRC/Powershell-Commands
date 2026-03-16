@@ -202,9 +202,9 @@ foreach ($srv in $servers) {
     try {
         Copy-Item $localFile "\\$srv\c$\App\app.conf" -Force
         Invoke-Command -ComputerName $srv -ScriptBlock { Restart-Service AppService }
-        Write-Host "✓ $srv updated" -ForegroundColor Green
+        Write-Host "[OK] $srv updated" -ForegroundColor Green
     } catch {
-        Write-Warning "✗ $srv failed: $_"
+        Write-Warning "[FAIL] $srv failed: $_"
     }
 }
 ```
