@@ -41,7 +41,7 @@ PowerShell 7+ is available on Windows, macOS, and Linux. Choose your platform be
 === "Homebrew (recommended)"
 
     ```bash
-    brew install powershell/tap/powershell
+    brew install --cask powershell
     pwsh   # launch
     ```
 
