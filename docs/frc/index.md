@@ -1,50 +1,35 @@
 # FRC PowerShell Automation
 
-PowerShell for FRC teams — automate builds, connect to your robot, and troubleshoot faster. Pick a topic below to get started.
+PowerShell is a built-in, cross-platform shell that FRC teams can use to automate the repetitive parts of robot development and competition-day prep — from Gradle builds to roboRIO SSH sessions to network diagnostics. Everything in this section runs on the same Windows machines your team already uses.
 
-<div class="grid cards" markdown>
+Use the navigation on the left to jump to any topic, or read on for a quick overview and a connect-to-robot example.
 
--   :material-robot-industrial:{ .lg .middle } **WPILib & GradleRIO**
+---
 
-    ---
+## What's in this section
 
-    Build robot code, run toolchain installs, clean caches, and deploy — all from the terminal.
+| Page | What it covers |
+|------|---------------|
+| [WPILib & GradleRIO](wpilib-dev.md) | Build robot code, run toolchain installs, clean caches, and deploy from the terminal |
+| [roboRIO Utilities](roborio.md) | SSH into your roboRIO, copy files with SCP, install IPK packages, and pull logs |
+| [Robot Networking](networking.md) | Ping the robot, resolve mDNS names, check firewall rules, and run competition-day pre-checks |
+| [Troubleshooting](troubleshooting.md) | Fix `JAVA_HOME`, clear Gradle caches, reinstall toolchains, diagnose Driver Station issues |
+| [FrcTools Module](frctools.md) | A ready-to-import module that packages all helper functions in one place |
 
-    [:octicons-arrow-right-24: WPILib dev tasks](wpilib-dev.md)
+---
 
--   :material-lan-connect:{ .lg .middle } **roboRIO Utilities**
+## Quick-start: connect to your robot
 
-    ---
+```powershell
+# Test whether the roboRIO is reachable (replace 9999 with your team number)
+Test-Connection roboRIO-9999-FRC.local -Count 1 -Quiet
 
-    SSH into your roboRIO, copy files with SCP, install IPK packages, and pull logs.
+# Open an interactive SSH session
+ssh admin@roboRIO-9999-FRC.local
 
-    [:octicons-arrow-right-24: roboRIO utilities](roborio.md)
-
--   :material-wifi:{ .lg .middle } **Robot Networking**
-
-    ---
-
-    Ping the robot, resolve mDNS names, check firewall rules, and run competition-day pre-checks.
-
-    [:octicons-arrow-right-24: Networking](networking.md)
-
--   :material-wrench:{ .lg .middle } **Troubleshooting**
-
-    ---
-
-    Fix `JAVA_HOME`, clear Gradle caches, reinstall toolchains, and diagnose Driver Station issues.
-
-    [:octicons-arrow-right-24: Troubleshooting](troubleshooting.md)
-
--   :material-package-variant:{ .lg .middle } **FrcTools Module**
-
-    ---
-
-    A ready-to-import PowerShell module with all FRC helper functions packaged in one place.
-
-    [:octicons-arrow-right-24: FrcTools module](frctools.md)
-
-</div>
+# Or use the fixed IP (10.TE.AM.2 format)
+ssh admin@10.99.99.2
+```
 
 ---
 
