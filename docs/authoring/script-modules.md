@@ -183,7 +183,7 @@ Invoke-ScriptAnalyzer -Path .\MyModule -Recurse
 Here is a complete, production-quality minimal module:
 
 ```
-📁 GreetingModule/
+GreetingModule/
 ├── GreetingModule.psd1
 ├── GreetingModule.psm1
 ├── Public/

@@ -229,7 +229,7 @@ $hosts | ForEach-Object {
         Name    = $_.Name
         Address = $_.Address
         Online  = $online
-        Status  = if ($online) { "✓ Online" } else { "✗ Offline" }
+        Status  = if ($online) { "Online" } else { "Offline" }
     }
 } | Format-Table -AutoSize
 ```
